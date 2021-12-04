@@ -31,4 +31,6 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: StandaloneLinux64
-          projectPath: /github/workspace/
+
+      - name: Run a one-line script
+        run: find / -name ProjectSettings
