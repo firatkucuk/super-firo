@@ -31,4 +31,7 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: StandaloneLinux64
-          projectPath: /home/runner/work/super-firro/super-firro
+
+
+      - name: Run a one-line script
+        run: /github/workspace/./ProjectSettings/EditorBuildSettings.asset
