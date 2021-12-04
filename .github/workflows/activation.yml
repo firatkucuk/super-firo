@@ -1,6 +1,10 @@
 name: Acquire activation file
 on:
-  workflow_dispatch: {}
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main, ci ]
+  pull_request:
+    branches: [ main ]
 jobs:
   activation:
     name: Request manual activation file 🔑
