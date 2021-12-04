@@ -31,6 +31,4 @@ jobs:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           targetPlatform: StandaloneLinux64
-
-      - name: Run a one-line script
-        run: find / -name ProjectSettings
+          projectPath: /home/runner/work/super-firro/super-firro
