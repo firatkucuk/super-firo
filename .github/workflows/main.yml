@@ -34,4 +34,4 @@ jobs:
 
 
       - name: Run a one-line script
-        run: /github/workspace/./ProjectSettings/EditorBuildSettings.asset
+        run: ls -al /github/workspace/./ProjectSettings
