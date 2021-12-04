@@ -26,7 +26,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Unity - Builder
-        uses: firatkucuk/unity-builder@6d783ea
+        uses: firatkucuk/unity-builder@6d783eae2be5c52f52cdd7f042e65d65d91d2391
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
